@@ -1,0 +1,16 @@
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\bin\Debug\PracticalMVVM.exe.config
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\obj\Debug\PracticalMVVM.csprojResolveAssemblyReference.cache
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\obj\Debug\CoffeeDetailView.g.cs
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\obj\Debug\CoffeeOverviewView.g.cs
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\obj\Debug\App.g.cs
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\obj\Debug\PracticalMVVM_MarkupCompile.cache
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\obj\Debug\PracticalMVVM_MarkupCompile.lref
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\bin\Debug\PracticalMVVM.exe
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\bin\Debug\PracticalMVVM.pdb
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\obj\Debug\CoffeeDetailView.baml
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\obj\Debug\CoffeeOverviewView.baml
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\obj\Debug\PracticalMVVM.g.resources
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\obj\Debug\PracticalMVVM.Properties.Resources.resources
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\obj\Debug\PracticalMVVM.csproj.GenerateResource.Cache
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\obj\Debug\PracticalMVVM.exe
+C:\dev\dotnetworkspace\PracticalMVVM\PracticalMVVM\obj\Debug\PracticalMVVM.pdb
