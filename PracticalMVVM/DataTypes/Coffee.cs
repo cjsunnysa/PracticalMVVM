@@ -9,9 +9,9 @@ namespace PracticalMVVM.DataTypes
         private int _id;
         private string _name;
         private string _description;
-        private int _intensity;
         private decimal _price;
         private int _stockAmount;
+        private string _thumbnailPath;
         private DateTime _firstAdded;
 
         public int Id
@@ -80,6 +80,21 @@ namespace PracticalMVVM.DataTypes
                 OnPropertyChanged("StockAmount");
             }
         }
+        public string ThumbnailPath
+        {
+            get
+            {
+                return _thumbnailPath;
+            }
+            set
+            {
+                if (_thumbnailPath == value)
+                    return;
+
+                _thumbnailPath = value;
+                OnPropertyChanged("ThumbnailPath");
+            }
+        }
         public DateTime FirstAdded
         {
             get
@@ -95,7 +110,6 @@ namespace PracticalMVVM.DataTypes
                 OnPropertyChanged("FirstAdded");
             }
         }
-
 
 
         public event PropertyChangedEventHandler PropertyChanged;

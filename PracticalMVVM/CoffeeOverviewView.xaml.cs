@@ -22,27 +22,18 @@ namespace PracticalMVVM
     /// </summary>
     public partial class CoffeeOverviewView : Window
     {
-        private Coffee[] _coffeeItems;
-
         public CoffeeOverviewView()
         {
             InitializeComponent();
+
+            this.DataContext = new CoffeeOverviewViewModel(ApplicationService.Instance.EventAggregator);
 
             this.Loaded += CoffeeOverviewView_Loaded;
         }
 
         private void CoffeeOverviewView_Loaded(object sender, RoutedEventArgs e)
         {
-            LoadData();
-
-            this.DataContext = _coffeeItems;
-        }
-
-        private void LoadData()
-        {
-            var dataService = new CoffeeDataService();
-
-            _coffeeItems = dataService.GetAll().ToArray();
+            CoffeeList.Focus();
         }
     }
 }

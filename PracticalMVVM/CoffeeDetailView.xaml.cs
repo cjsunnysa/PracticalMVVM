@@ -1,6 +1,8 @@
 ﻿using PracticalMVVM.DataTypes;
+using PracticalMVVM.Services;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,20 +20,13 @@ namespace PracticalMVVM
     /// <summary>
     /// Interaction logic for CoffeeDetailView.xaml
     /// </summary>
-    public partial class CoffeeDetailView : Window
+    public partial class CoffeeDetailView : UserControl
     {
-        public Coffee CoffeeDetail { get; set; }
-
-        public CoffeeDetailView(Coffee coffeeRecord)
+        public CoffeeDetailView()
         {
             InitializeComponent();
 
-            CoffeeDetail = coffeeRecord;
-        }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            this.DataContext = CoffeeDetail;
+            this.DataContext = new CoffeeDetailViewModel(ApplicationService.Instance.EventAggregator);
         }
     }
 }
